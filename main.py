@@ -10,3 +10,9 @@ def home():
 def health():
   return {"status" : "Ok",
           "Project": "HackMate"}
+@app.get('/about')
+def about():
+  return {"project": "HackMate",
+          "version": "0.1.0",
+          "description": "Hackathon team formation platform"
+          }
