@@ -1,6 +1,7 @@
 from fastapi import FastAPI
+from app.config import PROJECT_NAME
 
-app = FastAPI()
+app = FastAPI(title=PROJECT_NAME)
 
 @app.get("/")
 def home():
