@@ -1,25 +1,8 @@
-# HackMate 
+## Development Progress
 
-A hackathon team formation platform focused on skill-based matching, 
-trust, and real-time collaboration.
-
-## What This Project Does
-
-HackMate helps developers find teammates for hackathons based on:
-- Skill matching (React, FastAPI, ML, etc.)
-- Experience level and availability
-- Trust scores (GitHub activity, ratings, reliability)
-- Real-time team chat
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Backend | FastAPI (Python) |
-| Database | PostgreSQL (Supabase) |
-| Cache | Redis |
-| Auth | JWT |
-| Real-time | WebSockets |
-| Frontend | React + Tailwind (coming soon) |
-
-## Project Structure
+| Day | What Was Built |
+|-----|---------------|
+| Day 1 | FastAPI setup, first endpoints, GitHub repo |
+| Day 2 | Project structure, Supabase connection, config layer |
+| Day 3 | User + Profile models, database tables created in Supabase |
+| Day 4 | Pydantic schemas for User and Profile — request validation, response shaping, custom field validators |
