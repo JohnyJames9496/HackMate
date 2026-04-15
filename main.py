@@ -1,9 +1,11 @@
 from fastapi import FastAPI
 from app.config import PROJECT_NAME
 from app.models import User,Profile
-
+from app.routers import auth
 app = FastAPI(title=PROJECT_NAME)
 
+
+app.include_router(auth.router)
 @app.get("/")
 def home():
   return {"message": f"{PROJECT_NAME} is alive"}
@@ -15,6 +17,6 @@ def health():
 @app.get('/about')
 def about():
   return {"project": PROJECT_NAME,
-          "version": "0.3.0",
+          "version": "0.5.0",
           "description": "Hackathon team formation platform"
           }
