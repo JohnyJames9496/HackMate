@@ -17,7 +17,6 @@ class MemberStatus(str, Enum):
     accepted = "accepted"
     rejected = "rejected"
 
-
 class TeamCreate(BaseModel):
     hackathon_id: UUID
     name: str
@@ -41,10 +40,8 @@ class TeamCreate(BaseModel):
             raise ValueError("Team size must be between 2 and 10")
         return v
 
-
 class TeamApply(BaseModel):
     role: TeamRole = TeamRole.Other
-
 
 class TeamApplicationAction(BaseModel):
     member_id: UUID
@@ -57,8 +54,6 @@ class TeamApplicationAction(BaseModel):
             raise ValueError("Action must be 'accept' or 'reject'")
         return v
 
-
-
 class MemberResponse(BaseModel):
     id: UUID
     user_id: UUID
@@ -67,7 +62,6 @@ class MemberResponse(BaseModel):
     joined_at: datetime
 
     model_config = {"from_attributes": True}
-
 
 class TeamResponse(BaseModel):
     id: UUID
@@ -82,7 +76,6 @@ class TeamResponse(BaseModel):
     members: List[MemberResponse] = []
 
     model_config = {"from_attributes": True}
-
 
 class TeamListResponse(BaseModel):
     teams: List[TeamResponse]
