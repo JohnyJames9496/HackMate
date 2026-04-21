@@ -16,3 +16,12 @@ from app.schemas.hackathon import (
     HackathonResponse,
     HackathonListResponse
 )
+
+from app.schemas.team import (
+    TeamCreate,
+    TeamApply,
+    TeamApplicationAction,
+    TeamResponse,
+    TeamListResponse,
+    MemberResponse
+)
