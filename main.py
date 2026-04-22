@@ -11,7 +11,7 @@ app.include_router(hackathons.router)
 app.include_router(teams.router)
 @app.get("/")
 def home():
-  return {"message": f"{PROJECT_NAME} is alive"}
+  return {"message": f"{PROJECT_NAME} is running. Visit /docs for API documentation."}
 
 @app.get('/health')
 def health():
