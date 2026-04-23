@@ -9,3 +9,4 @@
 | Day 5 | Auth service, signup + login endpoints, password hashing, JWT tokens |
 | Day 6 | Protected routes, JWT middleware, get + update profile endpoints |
 | Day 8 | Hackathons module — create, browse, filter by skill, pagination |
+| Day 9 | Teams module — create, browse, apply, accept/reject members |
