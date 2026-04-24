@@ -24,3 +24,9 @@ from app.schemas.team import (
     TeamListResponse,
     MemberResponse
 )
+from app.schemas.matching import (
+    TeamRecommendation,
+    UserRecommendation,
+    TeamRecommendationList,
+    UserRecommendationList
+)
