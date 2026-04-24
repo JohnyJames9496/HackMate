@@ -11,3 +11,4 @@
 | Day 8 | Hackathons module — create, browse, filter by skill, pagination |
 | Day 9 | Teams module — create, browse, apply, accept/reject members |
 | Day 10 | Matching engine — skill scoring, recommendations API |
+| Day 11 | Trust system — GitHub activity score, reliability, profile completeness |
