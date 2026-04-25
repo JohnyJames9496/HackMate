@@ -1,1 +1,1 @@
-from app.routers import auth, profile, hackathons, teams, matching, trust
+from app.routers import auth, profile, hackathons, teams, matching, trust,ratings

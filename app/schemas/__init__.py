@@ -30,3 +30,9 @@ from app.schemas.matching import (
     TeamRecommendationList,
     UserRecommendationList
 )
+
+from app.schemas.rating import (
+    RatingCreate,
+    RatingResponse,
+    UserRatingSummary
+)
