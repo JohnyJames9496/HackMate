@@ -13,3 +13,4 @@
 | Day 10 | Matching engine — skill scoring, recommendations API |
 | Day 11 | Trust system — GitHub activity score, reliability, profile completeness |
 | Day 12 | Ratings system — rate teammates, average rating, trust score auto-update |
+| Day 13 | Redis caching — Upstash Redis, hackathon caching, cache invalidation |
